@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Logo from "../Assets/Logo.svg";
+import Logo2 from "../Assets/Logo2.svg";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
@@ -15,7 +16,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
-
+import Diversity1Icon from '@mui/icons-material/Diversity1';
 
 const Navbar = () => {
 
@@ -38,8 +39,8 @@ const Navbar = () => {
       icon: <PhoneRoundedIcon />,
     },
     {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
+      text: "Favorites",
+      icon: <Diversity1Icon />,
     },
 
   ];
@@ -47,7 +48,7 @@ const Navbar = () => {
   return (
     <nav> 
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+        <img src={Logo2} alt="" style={{ width: '300px', height: 'auto' }} />
       </div>
 
       <div className="navbar-links-container">
@@ -56,7 +57,7 @@ const Navbar = () => {
         <a href=""> Testimonials </a>
         <a href=""> Contact </a>
         <a href="">
-          <BsCart2 className="navbar-cart-icon" />
+          <Diversity1Icon />
         </a>
         <button className="primary-button">
           Bookings Now
