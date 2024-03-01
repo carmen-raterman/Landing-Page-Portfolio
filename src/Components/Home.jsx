@@ -16,15 +16,19 @@ const Home = () => {
 
         <div className="home-text-section" >
           <h1 className="primary-heading">
-            Your Favorite Food Delivered Hot & Fresh
+            Advocating for health equity in Georgia
           </h1>
 
           <p className="primary-text" >
-            Chefs do all the prep work, like peeling, chopping, & marinating, so you can cook the food fresh.
+            We empower women and mothers to review healthcare practitioners, fostering accountability and ensuring equitable healthcare access for all.
+          </p>
+
+          <p className="primary-text" >
+            Together, we can pave the way for a healthier and more equitable future for Black women in Georgia.
           </p>
 
           <button className="secondary-button" >
-            Order Now <FiArrowRight />
+            Leave a Review <FiArrowRight />
           </button>
         </div>
 

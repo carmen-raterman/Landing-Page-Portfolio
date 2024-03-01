@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Logo from "../Assets/Logo.svg";
 import Logo2 from "../Assets/Logo2.svg";
+import Logo3 from "../Assets/Logo3.png";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
@@ -48,7 +49,7 @@ const Navbar = () => {
   return (
     <nav> 
       <div className="nav-logo-container">
-        <img src={Logo2} alt="" style={{ width: '300px', height: 'auto' }} />
+        <img src={Logo3} alt="" style={{ width: '500px', height: 'auto', display: 'flex', marginLeft: '0px' }} />
       </div>
 
       <div className="navbar-links-container">
