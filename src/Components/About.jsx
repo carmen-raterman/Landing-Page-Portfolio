@@ -17,22 +17,27 @@ const About = () => {
         <div className="about-section-text-container" >
             <p className="primary-subheading" > About </p>
             <h1 className="primary-heading">
-                Food Brings Us Together
+                Holding the Healthcare System Accountable
             </h1>
 
             <p className="primary-text">
-                Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+                Despite being the top global spender on healthcare, the United States has witnessed a concerning rise in maternal mortality rates <sup>[1]</sup>.
             </p>
 
             <p className="primary-text">
-                Non tincidunt magna non et elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+                Georgia stands out with one of the highest maternal mortality rates in the nation, disproportionately affecting Black women <sup>[2]</sup>. 
+            </p>
+
+            <p className="primary-text">
+                Harmony Access Health is dedicated to combating these disparities by providing a platform for women and mothers of color in Georgia to review healthcare practitioners and advocate for culturally-responsive care. Your reviews can save lives!
             </p>
 
             <div className="about-buttons-container" >
                 <button className="secondary-button" > Learn More </button>
                 <button className="watch-video-button" >
-                    {" "}
-                    <BsFillPlayCircleFill /> Watch Video
+                    <a href="https://www.youtube.com/watch?v=3e8QO6pT4Rw" target="_blank" rel="noopener noreferrer" className="watch-video-button" >
+                        <BsFillPlayCircleFill /> Watch Video
+                    </a>
                 </button>
             </div>
         </div>
