@@ -12,6 +12,7 @@ const About = () => {
 
         <div className="about-section-image-container" >
             <img src={AboutBackgroundImage} alt="" />
+            <p> Credit: Getty Images </p>
         </div>
 
         <div className="about-section-text-container" >

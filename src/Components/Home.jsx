@@ -34,6 +34,7 @@ const Home = () => {
 
         <div className="home-image-section" >
           <img src={BannerImage} alt="" />
+          <p> Credit: Canva.com </p>
         </div>
       </div>
     </div>
