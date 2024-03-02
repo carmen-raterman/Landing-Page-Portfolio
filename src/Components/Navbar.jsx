@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import Logo from "../Assets/Logo.svg";
-import Logo2 from "../Assets/Logo2.svg";
 import Logo3 from "../Assets/Logo3.png";
-import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";

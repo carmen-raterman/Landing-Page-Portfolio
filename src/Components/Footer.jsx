@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../Assets/Logo.svg";
+import Logo3 from "../Assets/Logo3.png";
 import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="footer-wrapper" >
         <div className="footer-section-one" >
             <div className="footer-logo-container">
-                <img src={Logo} alt="" />
+                <img src={Logo3} alt="" />
             </div>
 
             <div className="footer-icons">
@@ -23,19 +23,18 @@ const Footer = () => {
 
             <div className="footer-section-two">
                 <div className="footer-section-columns">
-                    <span> Quality </span>
                     <span> Help </span>
                     <span> Share </span>
                     <span> Careers </span>
                     <span> Testimonials </span>
-                    <span> Work </span>
+                    <span> References </span>
                 </div>
 
                 <div className="footer-section-columns">
                     <span> 000-123-4567 </span>
-                    <span> hello@food.com </span>
-                    <span> press@food.com </span>
-                    <span> contact@food.com </span>
+                    <span> hello@harmonyga.com </span>
+                    <span> press@harmonyga.com </span>
+                    <span> contact@harmonyga.com </span>
                 </div>
 
                 <div className="footer-section-columns" >

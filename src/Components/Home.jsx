@@ -32,7 +32,7 @@ const Home = () => {
           </button>
         </div>
 
-        <div className="home-image-container" >
+        <div className="home-image-section" >
           <img src={BannerImage} alt="" />
         </div>
       </div>
