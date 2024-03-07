@@ -1,24 +1,24 @@
 import React from 'react';
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import ReviewsImage2 from "../Assets/reviews-image2.png"
+import InteractImage from "../Assets/interact-image.png";
+import JusticeImage from "../Assets/justice-image.png";
 
 const Work = () => {
     const workInfoData = [
         {
-            image: PickMeals,
-            title: "Pick Meals",
-            text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+            image: ReviewsImage2,
+            title: "Leave A Review",
+            text: "Review any healthcare practitioner you've seen in GA, and if they made you feel safe, heard, and advocated for.",
         },
         {
-          image: ChooseMeals,
-          title: "Choose How Often",
-          text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+          image: InteractImage,
+          title: "Promote Accountability",
+          text: "Read and interact with reviews that other women of color have left on practitioners near you.",
         },
         {
-          image: DeliveryMeals,
-          title: "Fast Deliveries",
-          text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+          image: JusticeImage,
+          title: "Advocate Awareness",
+          text: "Access resources to learn more and raise awareness regarding this public health issue.",
         },
     ];
 
@@ -28,7 +28,7 @@ const Work = () => {
             <p className="primary-subheading" > Work </p>
             <h1 className="primary-heading" > How It Works </h1>
             <p className="primary-text" >
-                Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+              Explore the options available on our website to address maternal mortality for women of color in Georgia:
             </p>
         </div>
 
@@ -36,7 +36,7 @@ const Work = () => {
         {workInfoData.map((data) => (
           <div className="work-section-info" key={data.title}>
             <div className="info-boxes-img-container">
-              <img src={data.image} alt="" />
+              <img src={data.image} alt="" style={{ width: '150px', height: '150px' }}/>
             </div>
             <h2>{data.title}</h2>
             <p>{data.text}</p>
@@ -48,4 +48,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Work;

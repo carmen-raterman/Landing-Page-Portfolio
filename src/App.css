@@ -360,6 +360,7 @@ nav {
     display: flex;
     align-items: center;
     font-weight: 600;
+    height: 150px;
 }
 
 @media (max-width: 1000px) {
