@@ -16,7 +16,7 @@ const Home = () => {
 
         <div className="home-text-section" >
           <h1 className="primary-heading">
-            Advocating for health equity in Georgia
+            Advocating for Health Equity in Georgia
           </h1>
 
           <p className="primary-text" >
@@ -34,7 +34,7 @@ const Home = () => {
 
         <div className="home-image-section" >
           <img src={BannerImage} alt="" />
-          <p> Credit: Canva.com </p>
+          <p style={{ fontSize: 'smaller', color: 'gray' }} > Credit: Canva.com </p>
         </div>
       </div>
     </div>
