@@ -12,7 +12,7 @@ const About = () => {
 
         <div className="about-section-image-container" >
             <img src={AboutBackgroundImage} alt="" />
-            <p> Credit: Getty Images </p>
+            <p style={{ fontSize: 'smaller', color: 'gray' }} > Credit: Getty Images </p>
         </div>
 
         <div className="about-section-text-container" >
@@ -22,11 +22,11 @@ const About = () => {
             </h1>
 
             <p className="primary-text">
-                Despite being the top global spender on healthcare, the United States has witnessed a concerning rise in maternal mortality rates <sup>[1]</sup>.
+                Despite being the top global spender on healthcare, the United States has witnessed an alarming rise in maternal mortality rates <sup><a href="https://www.commonwealthfund.org/blog/2022/us-maternal-mortality-crisis-continues-worsen-international-comparison#:~:text=New%20international%20data%20show%20the,most%20other%20high%2Dincome%20countries." target="_blank" rel="noopener noreferrer">[1]</a></sup>.
             </p>
 
             <p className="primary-text">
-                Georgia stands out with one of the highest maternal mortality rates in the nation, disproportionately affecting Black women <sup>[2]</sup>. 
+                Georgia stands out with one of the highest maternal mortality rates in the nation, disproportionately affecting Black women <sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8679596/" target="_blank" rel="noopener noreferrer">[2]</a></sup>. 
             </p>
 
             <p className="primary-text">
