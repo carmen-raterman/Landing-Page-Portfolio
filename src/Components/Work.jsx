@@ -8,7 +8,7 @@ const Work = () => {
         {
             image: ReviewsImage2,
             title: "Leave A Review",
-            text: "Review any healthcare practitioner you've seen in GA, and if they made you feel safe, heard, and advocated for.",
+            text: "Review any healthcare practitioner you've seen in GA. Share if they made you feel safe, heard, and advocated for.",
         },
         {
           image: InteractImage,

@@ -330,6 +330,7 @@ nav {
 
 .work-section-info {
     width: 290px;
+    max-height: 350px;
     min-height: 350px;
     background-color: white;
     padding: 1rem 2rem;

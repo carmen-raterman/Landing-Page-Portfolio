@@ -58,7 +58,7 @@ const Navbar = () => {
           <Diversity1Icon />
         </a>
         <button className="primary-button">
-          Bookings Now
+          Sign In
         </button>
       </div>
 
