@@ -24,7 +24,7 @@ const Home = () => {
           </p>
 
           <p className="primary-text" >
-            Together, we can pave the way for a healthier and more equitable future for Black women in Georgia.
+            Together, we can pave the way for a healthier and more equitable future for Women of Color in Georgia.
           </p>
 
           <button className="secondary-button" >
