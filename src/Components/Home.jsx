@@ -20,7 +20,7 @@ const Home = () => {
           </h1>
 
           <p className="primary-text" >
-            We empower women to review healthcare practitioners, fostering accountability in providers and ensuring equitable healthcare access for all.
+            We empower women and mothers to review healthcare practitioners, fostering accountability and ensuring equitable healthcare access for all.
           </p>
 
           <p className="primary-text" >

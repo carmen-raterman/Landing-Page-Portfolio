@@ -10,7 +10,8 @@ const Testimonials = () => {
         <p className="primary-subheading"> Testimonials </p>
         <h1 className="primary-heading">What They Are Saying</h1>
         <p className="primary-text">
-          Checkout what Harmony Access Health allies are saying about healthcare providers near you.
+          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
+          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
         </p>
       </div>
 
@@ -36,4 +37,4 @@ const Testimonials = () => {
   );
 }
 
-export default Testimonials;
+export default Testimonials
