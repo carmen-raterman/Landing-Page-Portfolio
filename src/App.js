@@ -5,18 +5,23 @@ import Work from "./Components/Work";
 import Testimonials from "./Components/Testimonials";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <About />
-      <Work />
-      <Testimonials />
-      <Contact />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/work" component={Work} />
+         {/* <Route path="/testimonials" component={Testimonials} /> */}
+          <Route path="/contact" component={Contact} />
+        </Routes>
+      </Router>
     </div>
+    
   );
 }
 
