@@ -8,17 +8,17 @@ const Work = () => {
         {
             image: ReviewsImage2,
             title: "Leave A Review",
-            text: "Review any healthcare practitioner you've seen in GA, and if they made you feel safe, heard, and advocated for.",
+            text: "Review any healthcare practitioner you've seen in GA. Share if they made you feel safe, heard, and advocated for.",
         },
         {
           image: InteractImage,
           title: "Promote Accountability",
-          text: "Read and interact with reviews that other women of color have left on practitioners near you.",
+          text: "Read and interact with reviews that other women have left on practitioners near you.",
         },
         {
           image: JusticeImage,
           title: "Advocate Awareness",
-          text: "Access resources to learn more and raise awareness regarding this public health issue.",
+          text: "Access resources to learn more about and raise awareness regarding this public health issue.",
         },
     ];
 
