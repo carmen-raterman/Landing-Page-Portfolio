@@ -4,7 +4,6 @@ import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -44,13 +43,11 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-links-container">
-        <a href=""> Home </a>
-        <a href=""> About </a>
-        <a href=""> Testimonials </a>
-        <a href=""> Contact </a>
-        <button className="primary-button">
-          Sign In
-        </button>
+        <a href="/"> Home </a>
+        <a href="/about"> About </a>
+        <a href="/testimonials"> Testimonials </a>
+        <a href="/contact"> Contact </a>
+        <button className="primary-button"> Sign In </button>
       </div>
 
       <div className="navbar-menu-container" >
