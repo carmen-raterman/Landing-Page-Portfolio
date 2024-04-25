@@ -9,7 +9,7 @@ const Review = require('./models/Review');
 const Practitioner = require('./models/Practitioner');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5050;
 
 app.use(cors());
 
@@ -18,11 +18,9 @@ app.use(express.json());
 
 
 //now for connecting to MongoDB
-mongoose.connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-}).then(() => console.log('MongoDB is connected'))
-  .catch(err => console.log(err));
+mongoose.connect(process.env.MONGODB_URI)
+.then(() => console.log('MongoDB is connected'))
+.catch(err => console.log('Could not connect to MongoDB', err));
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
