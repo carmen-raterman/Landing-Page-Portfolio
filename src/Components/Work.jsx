@@ -36,7 +36,7 @@ const Work = () => {
         {workInfoData.map((data) => (
           <div className="work-section-info" key={data.title}>
             <div className="info-boxes-img-container">
-              <img src={data.image} alt="" style={{ width: '150px', height: '150px' }}/>
+              <img src={data.image} alt={data.title} />
             </div>
             <h2>{data.title}</h2>
             <p>{data.text}</p>
