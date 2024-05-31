@@ -342,6 +342,8 @@ nav {
     color: #505050;
     margin: 1rem 2rem;
     flex-grow: 1;
+    flex-basis: 290px; /* Ensures all boxes have the same base width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for better visual appeal */
 }
 
 .work-section-info h2 {
@@ -352,17 +354,25 @@ nav {
     margin-top: 5rem;
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: stretch; /* Ensures all items stretch to the same height */
     flex-wrap: wrap;
 }
 
 .work-section-info p {
     font-weight: 600;
+    flex-grow: 1; /* Make sure text takes up available space */
+    display: flex;
+    align-items: center; /* Center align text vertically */
+    justify-content: center; /* Center align text horizontally */
+    margin: 1rem 0; /* Add margin for spacing */
 }
 
 .info-boxes-img-container {
     width: 150px;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 1rem;
 }
 
